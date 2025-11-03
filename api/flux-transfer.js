@@ -51,8 +51,8 @@ export default async function handler(req, res) {
         input: {
           prompt: prompt,
           control_image: image,
-          control_type: "depth",
-          control_strength: 0.5,
+          control_type: "canny",        // depth → canny (윤곽선 추출)
+          control_strength: 0.75,       // 0.5 → 0.75 (원본 제어 강화)
           steps: 28,
           guidance_scale: 3.5,
           output_format: "jpg",
