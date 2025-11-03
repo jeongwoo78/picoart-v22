@@ -46,6 +46,16 @@ const ProcessingScreen = ({ photo, selectedStyle, onComplete }) => {
       );
 
       if (!result.success) {
+        // API 키 문제인지 확인
+        if (result.error && result.error.includes('401')) {
+          throw new Error('API 키가 설정되지 않았습니다. Vercel 환경 변수를 확인해주세요.');
+        }
+        if (result.error && result.error.includes('402')) {
+          throw new Error('Replicate 계정의 크레딧이 부족합니다.');
+        }
+        if (result.error && result.error.includes('500')) {
+          throw new Error('API 서버 오류입니다. 잠시 후 다시 시도해주세요.');
+        }
         throw new Error(result.error || 'Style transfer failed');
       }
 
@@ -58,7 +68,20 @@ const ProcessingScreen = ({ photo, selectedStyle, onComplete }) => {
 
     } catch (error) {
       console.error('Processing error:', error);
-      setStatusText(`오류: ${error.message || '다시 시도해주세요.'}`);
+      
+      // 에러 메시지 분류
+      let errorMessage = error.message;
+      
+      if (error.message.includes('API 키')) {
+        errorMessage = '⚠️ ' + error.message + '\n\n해결 방법:\n1. Vercel Dashboard 접속\n2. Settings → Environment Variables\n3. REPLICATE_API_KEY 추가';
+      } else if (error.message.includes('크레딧')) {
+        errorMessage = '💳 ' + error.message + '\n\nReplicate.com에서 크레딧을 충전해주세요.';
+      } else if (!errorMessage) {
+        errorMessage = '알 수 없는 오류가 발생했습니다. 다시 시도해주세요.';
+      }
+      
+      setStatusText(`오류: ${errorMessage}`);
+      setStage(1); // 다시 시도할 수 있도록 stage 리셋
     }
   };
 
