@@ -26,8 +26,8 @@ export default async function handler(req, res) {
 
     console.log('Starting FLUX Redux prediction...');
 
-    // FLUX Redux - 원본 핵심 요소 보존!
-    const response = await fetch('https://api.replicate.com/v1/predictions', {
+    // FLUX Redux - 원본 핵심 요소 보존하면서 화풍만 변경
+    const response = await fetch('https://api.replicate.com/v1/models/black-forest-labs/flux-redux-dev/predictions', {
       method: 'POST',
       headers: {
         'Authorization': `Token ${process.env.REPLICATE_API_KEY}`,
@@ -35,12 +35,11 @@ export default async function handler(req, res) {
         'Prefer': 'wait'
       },
       body: JSON.stringify({
-        version: "f2b48e0e56d20c3a1a87828c8e87f43ea6f4f2f2d0dd9b0d7a73f7c0b7e0f3d7",
         input: {
           image: image,
           prompt: prompt,
-          guidance: 3.5,  // 낮을수록 원본 유지 (2.5-5.0)
-          num_inference_steps: 30,
+          guidance: 3.5,
+          num_inference_steps: 28,
           output_format: "jpg",
           output_quality: 90
         }
