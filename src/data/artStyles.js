@@ -3,17 +3,18 @@
 // 총 41개: 고대 2 + 르네상스 5 + 바로크 5 + 로코코 3 + 낭만 4 + 인상 5 + 후기인상 4 + 야수 3 + 표현 4 + 거장 3 + 동양 3
 
 export const styleCategories = {
-  ancient: { name: '고대 미술', period: 'BC 800 ~ AD 1400', order: 1 },
-  renaissance: { name: '르네상스', period: '1400-1600', order: 2 },
-  baroque: { name: '바로크', period: '1600-1750', order: 3 },
-  rococo: { name: '로코코', period: '1700-1780', order: 4 },
-  romanticism: { name: '낭만주의', period: '1780-1850', order: 5 },
-  impressionism: { name: '인상주의', period: '1860-1890', order: 6 },
-  postImpressionism: { name: '후기인상주의', period: '1880-1910', order: 7 },
-  fauvism: { name: '야수파', period: '1900-1910', order: 8 },
-  expressionism: { name: '표현주의', period: '1905-1925', order: 9 },
-  masters: { name: '거장', period: '1862-1989', order: 10 },
-  oriental: { name: '동양화', period: '1600-1900', order: 11 }
+  ancient: { name: '고대 미술', period: 'BC 800 ~ AD 500', order: 1 },
+  byzantineIslamic: { name: '비잔틴·이슬람', period: 'AD 400 ~ 1400', order: 2 },
+  renaissance: { name: '르네상스', period: '1400-1600', order: 3 },
+  baroque: { name: '바로크', period: '1600-1750', order: 4 },
+  rococo: { name: '로코코', period: '1700-1780', order: 5 },
+  romanticism: { name: '낭만주의', period: '1780-1850', order: 6 },
+  impressionism: { name: '인상주의', period: '1860-1890', order: 7 },
+  postImpressionism: { name: '후기인상주의', period: '1880-1910', order: 8 },
+  fauvism: { name: '야수파', period: '1900-1910', order: 9 },
+  expressionism: { name: '표현주의', period: '1905-1925', order: 10 },
+  masters: { name: '거장', period: '1862-1989', order: 11 },
+  oriental: { name: '동양화', period: '1600-1900', order: 12 }
 };
 
 export const artStyles = [
@@ -48,7 +49,7 @@ export const artStyles = [
 
   {
     id: 'byzantine-islamic',
-    category: 'ancient',
+    category: 'byzantineIslamic',
     model: 'SDXL',
     order: 2,
     name: '비잔틴·이슬람',
