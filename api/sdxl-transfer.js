@@ -40,14 +40,13 @@ export default async function handler(req, res) {
       apiKeyPresent: !!process.env.REPLICATE_API_KEY
     });
 
-    const response = await fetch('https://api.replicate.com/v1/predictions', {
+    const response = await fetch('https://api.replicate.com/v1/models/stability-ai/stable-diffusion-img2img/predictions', {
       method: 'POST',
       headers: {
         'Authorization': `Token ${process.env.REPLICATE_API_KEY}`,
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        version: "7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc",
         input: {
           image: image,
           prompt: prompt,
