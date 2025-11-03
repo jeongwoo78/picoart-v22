@@ -21,36 +21,16 @@ export default async function handler(req, res) {
       return res.status(400).json({ error: 'Prediction ID required' });
     }
 
-    if (!process.env.REPLICATE_API_KEY) {
-      return res.status(500).json({ 
-        error: 'API key not configured'
-      });
-    }
-
     const response = await fetch(`https://api.replicate.com/v1/predictions/${id}`, {
       headers: {
         'Authorization': `Token ${process.env.REPLICATE_API_KEY}`
       }
     });
 
-    if (!response.ok) {
-      const errorText = await response.text();
-      console.error('Check prediction error:', {
-        status: response.status,
-        error: errorText
-      });
-      return res.status(response.status).json({ 
-        error: `Failed to check prediction: ${response.status}`,
-        details: errorText
-      });
-    }
-
     const data = await response.json();
     res.status(200).json(data);
   } catch (error) {
-    console.error('Check API Error:', error);
-    res.status(500).json({ 
-      error: error.message
-    });
+    console.error('API Error:', error);
+    res.status(500).json({ error: error.message });
   }
 }

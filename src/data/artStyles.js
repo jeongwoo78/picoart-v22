@@ -42,7 +42,7 @@ export const artStyles = [
       masterpieces: ['밀로의 비너스', '라오콘 군상', '아우구스투스 조각상'],
       intro: '그리스·로마 미술은 인체의 이상적 아름다움을 추구했습니다. 완벽한 비례와 균형을 통해 신과 영웅을 표현했으며, 서양 미술의 기초가 되었습니다.'
     },
-    prompt: 'in the style of Classical Greek and Roman sculpture, transform this photo preserving the original subject and composition, apply idealized human proportions with perfect symmetry, marble-like smooth rendering, heroic noble figures, classical drapery folds, temple architecture background, serene dignified expressions, painted in ancient classical masterpiece quality',
+    prompt: 'Classical Greek and Roman sculpture painting style, idealized human proportions with perfect symmetry, marble-like smooth rendering, heroic noble figures, classical drapery folds, temple architecture background, serene dignified expressions, painted in ancient classical masterpiece quality',
     color: '#8B7355',
     icon: '🏛️'
   },
@@ -70,10 +70,10 @@ export const artStyles = [
     },
     subStyles: {
       byzantine: {
-        prompt: 'in the style of Byzantine religious icon, transform this photo preserving the original subject and composition, apply golden mosaic background, sacred solemn frontal figures, ornate halos, jewel-toned colors, flattened perspective, spiritual transcendent atmosphere, painted in Byzantine masterpiece quality'
+        prompt: 'Byzantine religious icon painting style, golden mosaic background, sacred solemn frontal figures, ornate halos, jewel-toned colors, flattened perspective, spiritual transcendent atmosphere, painted in Byzantine masterpiece quality'
       },
       islamic: {
-        prompt: 'in the style of Islamic decorative art, transform this photo preserving the original subject and composition, apply intricate geometric arabesque patterns, Islamic calligraphy elements, turquoise and cobalt blue colors, gold accents, no human figures, symmetrical designs, ornamental floral motifs, painted in Islamic art masterpiece quality'
+        prompt: 'Islamic decorative art painting style, intricate geometric arabesque patterns, Islamic calligraphy elements, turquoise and cobalt blue colors, gold accents, no human figures, symmetrical designs, ornamental floral motifs, painted in Islamic art masterpiece quality'
       }
     },
     color: '#FFD700',
@@ -85,7 +85,7 @@ export const artStyles = [
   {
     id: 'davinci',
     category: 'renaissance',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 3,
     name: '레오나르도 다 빈치',
     nameEn: 'Leonardo da Vinci',
@@ -103,7 +103,7 @@ export const artStyles = [
       masterpieces: ['모나리자', '최후의 만찬', '비트루비우스적 인간'],
       intro: '르네상스의 천재. 과학자이자 예술가로서 스푸마토 기법을 통해 신비롭고 생동감 있는 인물화를 창조했습니다.'
     },
-    prompt: 'in the style of Leonardo da Vinci Renaissance painting, transform this photo preserving the original subject and composition, apply sfumato technique with soft hazy edges, mysterious enigmatic expression, meticulous anatomical precision, subtle atmospheric perspective, warm golden brown tones, scientific observation of natural details, painted in da Vinci masterpiece quality',
+    prompt: 'Leonardo da Vinci Renaissance painting style, sfumato technique with soft hazy edges, mysterious enigmatic smiles, meticulous anatomical precision, subtle atmospheric perspective, warm golden brown tones, scientific observation of nature, painted in da Vinci masterpiece quality',
     color: '#8B6914',
     icon: '🎨'
   },
@@ -111,7 +111,7 @@ export const artStyles = [
   {
     id: 'michelangelo',
     category: 'renaissance',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 4,
     name: '미켈란젤로',
     nameEn: 'Michelangelo',
@@ -129,7 +129,7 @@ export const artStyles = [
       masterpieces: ['천지창조', '다비드상', '최후의 심판'],
       intro: '조각가이자 화가. 인체의 역동성과 힘을 완벽하게 표현했으며, 시스티나 성당 천장화로 불멸의 명성을 얻었습니다.'
     },
-    prompt: 'in the style of Michelangelo Renaissance, transform this photo preserving the original subject and composition, apply monumental muscular heroic figures, dynamic twisting poses (contrapposto), sculptural three-dimensional forms, dramatic foreshortening, powerful athletic bodies, painted in Michelangelo Sistine Chapel fresco quality',
+    prompt: 'Michelangelo Renaissance painting style, monumental muscular heroic figures, dynamic twisting poses (contrapposto), sculptural three-dimensional forms, dramatic foreshortening, powerful athletic bodies, painted in Michelangelo Sistine Chapel fresco quality',
     color: '#CD853F',
     icon: '💪'
   },
@@ -137,7 +137,7 @@ export const artStyles = [
   {
     id: 'raphael',
     category: 'renaissance',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 5,
     name: '라파엘로',
     nameEn: 'Raphael',
@@ -155,7 +155,7 @@ export const artStyles = [
       masterpieces: ['아테네 학당', '시스티나 마돈나', '초원의 성모'],
       intro: '르네상스의 완성자. 완벽한 조화와 균형으로 이상적 아름다움을 표현했으며, 37세의 젊은 나이에 요절했습니다.'
     },
-    prompt: 'in the style of Raphael Renaissance, transform this photo preserving the original subject and composition, apply perfect harmonious composition with balanced symmetry, graceful elegant figures, serene beautiful faces, soft pastel colors, clear spatial organization, idealized beauty, painted in Raphael masterpiece quality',
+    prompt: 'Raphael Renaissance painting style, perfect harmonious composition with balanced symmetry, graceful elegant figures, serene beautiful faces, soft pastel colors, clear spatial organization, idealized beauty, painted in Raphael masterpiece quality',
     color: '#DEB887',
     icon: '👼'
   },
@@ -163,7 +163,7 @@ export const artStyles = [
   {
     id: 'botticelli',
     category: 'renaissance',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 6,
     name: '산드로 보티첼리',
     nameEn: 'Sandro Botticelli',
@@ -181,7 +181,7 @@ export const artStyles = [
       masterpieces: ['비너스의 탄생', '봄(프리마베라)', '마그니피카트의 성모'],
       intro: '초기 르네상스의 대표 화가. 신화를 주제로 한 우아하고 시적인 작품으로 여성미의 정수를 표현했습니다.'
     },
-    prompt: 'in the style of Sandro Botticelli Renaissance, transform this photo preserving the original subject and composition, apply flowing graceful curved lines, ethereal delicate female figures, mythological themes, pale luminous skin tones, golden hair with gentle waves, decorative floral details, painted in Botticelli masterpiece quality',
+    prompt: 'Sandro Botticelli Renaissance painting style, flowing graceful curved lines, ethereal delicate female figures, mythological themes, pale luminous skin tones, golden hair with gentle waves, decorative floral details, painted in Botticelli masterpiece quality',
     color: '#F0E68C',
     icon: '🌸'
   },
@@ -189,7 +189,7 @@ export const artStyles = [
   {
     id: 'titian',
     category: 'renaissance',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 7,
     name: '티치아노',
     nameEn: 'Titian',
@@ -207,7 +207,7 @@ export const artStyles = [
       masterpieces: ['우르비노의 비너스', '바쿠스와 아리아드네', '성모 승천'],
       intro: '베네치아파의 거장. 풍부한 색채와 빛의 표현으로 바로크를 예고했으며, 88세까지 활동한 장수 화가입니다.'
     },
-    prompt: 'in the style of Titian Venetian Renaissance, transform this photo preserving the original subject and composition, apply rich saturated colors with golden tones, bold expressive brushwork, warm glowing skin, luxurious fabrics and textures, dramatic lighting, sensual compositions, painted in Titian masterpiece quality',
+    prompt: 'Titian Venetian Renaissance painting style, rich saturated colors with golden tones, bold expressive brushwork, warm glowing skin, luxurious fabrics and textures, dramatic lighting, sensual compositions, painted in Titian masterpiece quality',
     color: '#DAA520',
     icon: '👑'
   },
@@ -217,7 +217,7 @@ export const artStyles = [
   {
     id: 'caravaggio',
     category: 'baroque',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 8,
     name: '카라바조',
     nameEn: 'Caravaggio',
@@ -235,7 +235,7 @@ export const artStyles = [
       masterpieces: ['성 마태오의 소명', '바쿠스', '유디트와 홀로페르네스'],
       intro: '바로크의 혁명가. 극적인 빛과 어둠의 대비로 강렬한 종교화를 그렸으며, 파란만장한 삶을 살다 39세에 요절했습니다.'
     },
-    prompt: 'in the style of Caravaggio Baroque, transform this photo preserving the original subject and composition, apply dramatic tenebrism with stark light and shadow contrasts, single spotlight illumination from darkness, gritty realistic figures, theatrical composition, intense psychological drama, painted in Caravaggio chiaroscuro masterpiece quality',
+    prompt: 'Caravaggio Baroque painting style, dramatic tenebrism with stark light and shadow contrasts, single spotlight illumination from darkness, gritty realistic figures, theatrical composition, intense psychological drama, painted in Caravaggio chiaroscuro masterpiece quality',
     color: '#2C1810',
     icon: '🕯️'
   },
@@ -243,7 +243,7 @@ export const artStyles = [
   {
     id: 'rembrandt',
     category: 'baroque',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 9,
     name: '렘브란트',
     nameEn: 'Rembrandt',
@@ -261,7 +261,7 @@ export const artStyles = [
       masterpieces: ['야경', '자화상 시리즈', '돌아온 탕자'],
       intro: '네덜란드 황금시대의 거장. 빛의 표현과 인간 내면의 심리 묘사에 탁월했으며, 평생 100여 점의 자화상을 남겼습니다.'
     },
-    prompt: 'in the style of Rembrandt Baroque, transform this photo preserving the original subject and composition, apply warm golden light glowing from within, subtle gradations of light and shadow, psychological depth and introspection, rich earth tones, contemplative mood, expressive faces revealing inner life, painted in Rembrandt masterpiece quality',
+    prompt: 'Rembrandt Baroque painting style, warm golden light glowing from within, subtle gradations of light and shadow, psychological depth and introspection, rich earth tones, contemplative mood, expressive faces revealing inner life, painted in Rembrandt masterpiece quality',
     color: '#8B4513',
     icon: '💡'
   },
@@ -269,7 +269,7 @@ export const artStyles = [
   {
     id: 'rubens',
     category: 'baroque',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 10,
     name: '페테르 파울 루벤스',
     nameEn: 'Peter Paul Rubens',
@@ -287,7 +287,7 @@ export const artStyles = [
       masterpieces: ['십자가에서 내림', '마리 드 메디치의 생애', '삼미신'],
       intro: '플랑드르 바로크의 거장. 풍만하고 역동적인 인체 표현으로 유명하며, 외교관으로도 활동한 국제적 화가였습니다.'
     },
-    prompt: 'in the style of Peter Paul Rubens Baroque, transform this photo preserving the original subject and composition, apply voluptuous full-figured bodies in dynamic motion, swirling energetic compositions, rich vibrant colors, sensual flesh tones, dramatic gestures, abundant life force, painted in Rubens masterpiece quality',
+    prompt: 'Peter Paul Rubens Baroque painting style, voluptuous full-figured bodies in dynamic motion, swirling energetic compositions, rich vibrant colors, sensual flesh tones, dramatic gestures, abundant life force, painted in Rubens masterpiece quality',
     color: '#CD5C5C',
     icon: '🎭'
   },
@@ -295,7 +295,7 @@ export const artStyles = [
   {
     id: 'vermeer',
     category: 'baroque',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 11,
     name: '요하네스 베르메르',
     nameEn: 'Johannes Vermeer',
@@ -313,7 +313,7 @@ export const artStyles = [
       masterpieces: ['진주 귀걸이를 한 소녀', '우유를 따르는 여인', '델프트의 풍경'],
       intro: '네덜란드의 빛의 화가. 35점만 남긴 희소한 작가지만, 빛의 표현과 색채 감각이 탁월해 "북방의 레오나르도"로 불립니다.'
     },
-    prompt: 'in the style of Johannes Vermeer Baroque, transform this photo preserving the original subject and composition, apply pearl-like luminous light quality, meticulous attention to detail, quiet intimate domestic interiors, brilliant ultramarine blue, soft diffused natural window light, serene contemplative mood, painted in Vermeer masterpiece quality',
+    prompt: 'Johannes Vermeer Baroque painting style, pearl-like luminous light quality, meticulous attention to detail, quiet intimate domestic interiors, brilliant ultramarine blue, soft diffused natural window light, serene contemplative mood, painted in Vermeer masterpiece quality',
     color: '#4682B4',
     icon: '💎'
   },
@@ -321,7 +321,7 @@ export const artStyles = [
   {
     id: 'velazquez',
     category: 'baroque',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 12,
     name: '디에고 벨라스케스',
     nameEn: 'Diego Velázquez',
@@ -339,7 +339,7 @@ export const artStyles = [
       masterpieces: ['시녀들', '교황 인노켄티우스 10세', '브레다의 항복'],
       intro: '스페인 바로크의 대가. 스페인 왕실 화가로 활동하며 자연스럽고 생생한 궁정 초상화를 남겼습니다.'
     },
-    prompt: 'in the style of Diego Velázquez Baroque, transform this photo preserving the original subject and composition, apply naturalistic loose brushwork, sophisticated spatial composition, atmospheric perspective, subtle color harmonies, dignified court portraits, painted in Velázquez masterpiece quality',
+    prompt: 'Diego Velázquez Baroque painting style, naturalistic loose brushwork, sophisticated spatial composition, atmospheric perspective, subtle color harmonies, dignified court portraits, painted in Velázquez masterpiece quality',
     color: '#8B4789',
     icon: '👑'
   },
@@ -349,7 +349,7 @@ export const artStyles = [
   {
     id: 'boucher',
     category: 'rococo',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 13,
     name: '프랑수아 부셰',
     nameEn: 'François Boucher',
@@ -367,7 +367,7 @@ export const artStyles = [
       masterpieces: ['퐁파두르 부인', '비너스의 화장', '목욕하는 다이애나'],
       intro: '로코코의 대표 화가. 루이 15세의 궁정화가로 활동하며 우아하고 관능적인 작품으로 로코코 시대를 상징했습니다.'
     },
-    prompt: 'in the style of François Boucher Rococo, transform this photo preserving the original subject and composition, apply sensual soft curves, pastel pink and blue tones, mythological romantic scenes, decorative ornate details, playful cherubs, elegant aristocratic leisure, painted in Boucher masterpiece quality',
+    prompt: 'François Boucher Rococo painting style, sensual soft curves, pastel pink and blue tones, mythological romantic scenes, decorative ornate details, playful cherubs, elegant aristocratic leisure, painted in Boucher masterpiece quality',
     color: '#FFB6C1',
     icon: '🌹'
   },
@@ -375,7 +375,7 @@ export const artStyles = [
   {
     id: 'fragonard',
     category: 'rococo',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 14,
     name: '장 오노레 프라고나르',
     nameEn: 'Jean-Honoré Fragonard',
@@ -393,7 +393,7 @@ export const artStyles = [
       masterpieces: ['그네', '빗장', '읽는 소녀'],
       intro: '로코코 후기의 거장. 경쾌하고 유희적인 장면을 즐겨 그렸으며, 프랑스 혁명으로 로코코 시대가 끝나며 쇠락했습니다.'
     },
-    prompt: 'in the style of Jean-Honoré Fragonard Rococo, transform this photo preserving the original subject and composition, apply light playful brushwork, joyful movement and energy, romantic garden settings, bright cheerful colors, frivolous intimate moments, painted in Fragonard masterpiece quality',
+    prompt: 'Jean-Honoré Fragonard Rococo painting style, light playful brushwork, joyful movement and energy, romantic garden settings, bright cheerful colors, frivolous intimate moments, painted in Fragonard masterpiece quality',
     color: '#FFE4E1',
     icon: '🎠'
   },
@@ -401,7 +401,7 @@ export const artStyles = [
   {
     id: 'chardin',
     category: 'rococo',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 15,
     name: '장 바티스트 시메옹 샤르댕',
     nameEn: 'Jean-Baptiste-Siméon Chardin',
@@ -419,7 +419,7 @@ export const artStyles = [
       masterpieces: ['가오리', '비누 방울', '시장에서 돌아온 하녀'],
       intro: '로코코 시대의 이단아. 화려한 로코코와 달리 소박한 정물화와 일상을 그려 진정성 있는 작품세계를 보여줬습니다.'
     },
-    prompt: 'in the style of Jean-Baptiste-Siméon Chardin Rococo, transform this photo preserving the original subject and composition, apply quiet contemplative still lifes, humble domestic subjects, subtle muted colors, meticulous texture rendering, honest simplicity, painted in Chardin masterpiece quality',
+    prompt: 'Jean-Baptiste-Siméon Chardin Rococo painting style, quiet contemplative still lifes, humble domestic subjects, subtle muted colors, meticulous texture rendering, honest simplicity, painted in Chardin masterpiece quality',
     color: '#D2B48C',
     icon: '🍎'
   },
@@ -429,7 +429,7 @@ export const artStyles = [
   {
     id: 'delacroix',
     category: 'romanticism',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 16,
     name: '외젠 들라크루아',
     nameEn: 'Eugène Delacroix',
@@ -447,7 +447,7 @@ export const artStyles = [
       masterpieces: ['민중을 이끄는 자유의 여신', '알제의 여인들', '사르다나팔루스의 죽음'],
       intro: '낭만주의의 선구자. 강렬한 색채와 역동적 구도로 혁명과 열정을 표현했으며, 인상주의에 큰 영향을 주었습니다.'
     },
-    prompt: 'in the style of Eugène Delacroix Romantic, transform this photo preserving the original subject and composition, apply passionate intense colors, dynamic dramatic compositions, exotic orientalist subjects, swirling energetic movement, emotional turbulence, bold expressive brushwork, painted in Delacroix masterpiece quality',
+    prompt: 'Eugène Delacroix Romantic painting style, passionate intense colors, dynamic dramatic compositions, exotic orientalist subjects, swirling energetic movement, emotional turbulence, bold expressive brushwork, painted in Delacroix masterpiece quality',
     color: '#C0392B',
     icon: '🔥'
   },
@@ -455,7 +455,7 @@ export const artStyles = [
   {
     id: 'friedrich',
     category: 'romanticism',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 17,
     name: '카스파 다비드 프리드리히',
     nameEn: 'Caspar David Friedrich',
@@ -473,7 +473,7 @@ export const artStyles = [
       masterpieces: ['안개 바다 위의 방랑자', '떡갈나무 숲의 수도원', '북극해의 난파선'],
       intro: '독일 낭만주의의 대표 화가. 웅장한 자연 앞의 작은 인간을 통해 숭고함과 고독을 표현했습니다.'
     },
-    prompt: 'in the style of Caspar David Friedrich Romantic, transform this photo preserving the original subject and composition, apply sublime awe-inspiring landscapes, misty atmospheric effects, solitary contemplative figures, rugged mountains and vast seascapes, spiritual transcendent mood, symbolic use of light, painted in Friedrich masterpiece quality',
+    prompt: 'Caspar David Friedrich Romantic painting style, sublime awe-inspiring landscapes, misty atmospheric effects, solitary contemplative figures, rugged mountains and vast seascapes, spiritual transcendent mood, symbolic use of light, painted in Friedrich masterpiece quality',
     color: '#34495E',
     icon: '⛰️'
   },
@@ -481,7 +481,7 @@ export const artStyles = [
   {
     id: 'turner',
     category: 'romanticism',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 18,
     name: '조지프 말로드 윌리엄 터너',
     nameEn: 'J.M.W. Turner',
@@ -499,7 +499,7 @@ export const artStyles = [
       masterpieces: ['노예선', '비, 증기, 속도', '전함 테메레르'],
       intro: '영국 낭만주의의 거장. 빛과 색채의 혁명적 표현으로 인상주의를 예고했으며, "빛을 그리는 화가"로 불렸습니다.'
     },
-    prompt: 'in the style of J.M.W. Turner Romantic, transform this photo preserving the original subject and composition, apply luminous explosive light effects, turbulent dramatic weather, swirling atmospheric mists and clouds, sublime power of nature, loose expressive brushwork bordering abstraction, golden radiant sunlight, painted in Turner masterpiece quality',
+    prompt: 'J.M.W. Turner Romantic painting style, luminous explosive light effects, turbulent dramatic weather, swirling atmospheric mists and clouds, sublime power of nature, loose expressive brushwork bordering abstraction, golden radiant sunlight, painted in Turner masterpiece quality',
     color: '#F39C12',
     icon: '🌅'
   },
@@ -507,7 +507,7 @@ export const artStyles = [
   {
     id: 'gericault',
     category: 'romanticism',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 19,
     name: '테오도르 제리코',
     nameEn: 'Théodore Géricault',
@@ -525,7 +525,7 @@ export const artStyles = [
       masterpieces: ['메두사의 뗏목', '엡섬 경마', '정신병자 초상 시리즈'],
       intro: '낭만주의 초기의 천재. 인간의 극한 상황을 사실적으로 그렸으며, 32세에 낙마 사고로 요절했습니다.'
     },
-    prompt: 'in the style of Théodore Géricault Romantic, transform this photo preserving the original subject and composition, apply dramatic human suffering and struggle, powerful muscular figures in distress, dynamic diagonal compositions, stark realism, intense emotional impact, painted in Géricault masterpiece quality',
+    prompt: 'Théodore Géricault Romantic painting style, dramatic human suffering and struggle, powerful muscular figures in distress, dynamic diagonal compositions, stark realism, intense emotional impact, painted in Géricault masterpiece quality',
     color: '#8B0000',
     icon: '⚡'
   },
@@ -535,7 +535,7 @@ export const artStyles = [
   {
     id: 'monet',
     category: 'impressionism',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 20,
     name: '클로드 모네',
     nameEn: 'Claude Monet',
@@ -553,7 +553,7 @@ export const artStyles = [
       masterpieces: ['인상, 해돋이', '수련 연작', '루앙 대성당 연작'],
       intro: '인상주의의 창시자. "인상, 해돋이"로 인상주의라는 이름을 만들었으며, 말년에 지베르니 정원에서 수련을 그렸습니다.'
     },
-    prompt: 'in the style of Claude Monet Impressionist, transform this photo preserving the original subject and composition, apply soft feathery brushstrokes creating shimmering light effects, pastel colors with lavender purple pink and soft blue, water lilies floating on pond with reflections, dissolving forms in atmospheric misty light, Japanese bridge and weeping willows, dappled sunlight, painted in Monet late Impressionist masterpiece quality',
+    prompt: 'Claude Monet Impressionist painting style, soft feathery brushstrokes creating shimmering light effects, pastel colors with lavender purple pink and soft blue, water lilies floating on pond with reflections, dissolving forms in atmospheric misty light, Japanese bridge and weeping willows, dappled sunlight, painted in Monet late Impressionist masterpiece quality',
     color: '#A8D5E2',
     icon: '🌸'
   },
@@ -561,7 +561,7 @@ export const artStyles = [
   {
     id: 'renoir',
     category: 'impressionism',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 21,
     name: '피에르 오귀스트 르누아르',
     nameEn: 'Pierre-Auguste Renoir',
@@ -579,7 +579,7 @@ export const artStyles = [
       masterpieces: ['물랭 드 라 갈레트', '뱃놀이 파티의 점심', '피아노 치는 소녀들'],
       intro: '인상주의의 인물화가. 행복하고 따뜻한 일상의 순간을 포착했으며, 말년에 류머티즘으로 고통받으면서도 그림을 그렸습니다.'
     },
-    prompt: 'in the style of Pierre-Auguste Renoir Impressionist, transform this photo preserving the original subject and composition, apply warm luminous rosy skin tones with peach and pink, soft rounded forms with gentle blurred edges, joyful intimate scenes of people in gardens and cafes, dappled sunlight filtering through trees, sensual beautiful figures with rosy cheeks, delicate feathery brushstrokes, painted in Renoir mature Impressionist masterpiece quality',
+    prompt: 'Pierre-Auguste Renoir Impressionist painting style, warm luminous rosy skin tones with peach and pink, soft rounded forms with gentle blurred edges, joyful intimate scenes of people in gardens and cafes, dappled sunlight filtering through trees, sensual beautiful figures with rosy cheeks, delicate feathery brushstrokes, painted in Renoir mature Impressionist masterpiece quality',
     color: '#FFB6C1',
     icon: '💃'
   },
@@ -587,7 +587,7 @@ export const artStyles = [
   {
     id: 'manet',
     category: 'impressionism',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 22,
     name: '에두아르 마네',
     nameEn: 'Édouard Manet',
@@ -605,7 +605,7 @@ export const artStyles = [
       masterpieces: ['올랭피아', '풀밭 위의 점심', '폴리 베르제르의 술집'],
       intro: '인상주의의 선구자이자 근대 회화의 아버지. 전통을 파괴하고 현대 도시 생활을 혁신적으로 표현했습니다.'
     },
-    prompt: 'in the style of Édouard Manet modern Impressionist, transform this photo preserving the original subject and composition, apply bold simplified forms with strong contrasts, confident visible brushstrokes, contemporary urban Parisian scenes, dramatic use of black and white, flat areas of color with minimal modeling, revolutionary composition, painted in Manet groundbreaking masterpiece quality',
+    prompt: 'Édouard Manet modern Impressionist painting style, bold simplified forms with strong contrasts, confident visible brushstrokes, contemporary urban Parisian scenes, dramatic use of black and white, flat areas of color with minimal modeling, revolutionary composition, painted in Manet groundbreaking masterpiece quality',
     color: '#2C3E50',
     icon: '🎩'
   },
@@ -613,7 +613,7 @@ export const artStyles = [
   {
     id: 'degas',
     category: 'impressionism',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 23,
     name: '에드가 드가',
     nameEn: 'Edgar Degas',
@@ -631,7 +631,7 @@ export const artStyles = [
       masterpieces: ['무용 수업', '압생트', '14세의 어린 무희'],
       intro: '인상주의의 이단아. 야외가 아닌 실내, 특히 발레 연습실을 즐겨 그렸으며, 사진처럼 순간을 포착하는 독특한 구도를 사용했습니다.'
     },
-    prompt: 'in the style of Edgar Degas Impressionist, transform this photo preserving the original subject and composition, apply dynamic compositions capturing movement and motion, ballet dancers in rehearsal or performance, unusual cropped perspectives like photographic snapshots, pastel colors with emphasis on pink and blue, visible energetic brushstrokes showing gesture, behind-the-scenes intimate moments, painted in Degas distinctive Impressionist masterpiece quality',
+    prompt: 'Edgar Degas Impressionist painting style, dynamic compositions capturing movement and motion, ballet dancers in rehearsal or performance, unusual cropped perspectives like photographic snapshots, pastel colors with emphasis on pink and blue, visible energetic brushstrokes showing gesture, behind-the-scenes intimate moments, painted in Degas distinctive Impressionist masterpiece quality',
     color: '#E6B8AF',
     icon: '🩰'
   },
@@ -639,7 +639,7 @@ export const artStyles = [
   {
     id: 'pissarro',
     category: 'impressionism',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 24,
     name: '카미유 피사로',
     nameEn: 'Camille Pissarro',
@@ -657,7 +657,7 @@ export const artStyles = [
       masterpieces: ['몽마르트르 대로', '붉은 지붕', '퐁투아즈의 채소밭'],
       intro: '인상주의의 대부. 유일하게 8번의 인상파 전시회에 모두 참여했으며, 세잔과 고갱의 스승이기도 했습니다.'
     },
-    prompt: 'in the style of Camille Pissarro Impressionist, transform this photo preserving the original subject and composition, apply rural countryside and village scenes, small broken pointillist-like brushstrokes, earthy natural color palette with greens and browns, farmers and peasants in daily activities, atmospheric perspective with soft distant hills, humble pastoral subjects, painted in Pissarro gentle Impressionist masterpiece quality',
+    prompt: 'Camille Pissarro Impressionist painting style, rural countryside and village scenes, small broken pointillist-like brushstrokes, earthy natural color palette with greens and browns, farmers and peasants in daily activities, atmospheric perspective with soft distant hills, humble pastoral subjects, painted in Pissarro gentle Impressionist masterpiece quality',
     color: '#8B7355',
     icon: '🌾'
   },
@@ -667,7 +667,7 @@ export const artStyles = [
   {
     id: 'vangogh',
     category: 'postImpressionism',
-    model: 'SDXL',
+    model: 'FLUX',
     isMaster: true,
     order: 25,
     name: '빈센트 반 고흐',
@@ -686,7 +686,7 @@ export const artStyles = [
       masterpieces: ['별이 빛나는 밤', '해바라기', '아를의 침실'],
       intro: '후기인상주의의 천재. 생전에 단 한 점만 팔렸지만, 열정적인 붓터치와 색채로 현대미술에 지대한 영향을 미쳤습니다. 37세에 자살했습니다.'
     },
-    prompt: 'in the style of Vincent van Gogh Post-Impressionist, transform this photo preserving the original subject and composition, apply bold expressive swirling brushstrokes full of emotion, vibrant intense colors with yellows blues and oranges, thick impasto paint application creating texture, turbulent energetic movement, starry nights and sunflower fields, cypress trees, painted in van Gogh passionate masterpiece quality',
+    prompt: 'Vincent van Gogh Post-Impressionist painting style, bold expressive swirling brushstrokes full of emotion, vibrant intense colors with yellows blues and oranges, thick impasto paint application creating texture, turbulent energetic movement, starry nights and sunflower fields, cypress trees, painted in van Gogh passionate masterpiece quality',
     color: '#F4C430',
     icon: '🌟'
   },
@@ -694,7 +694,7 @@ export const artStyles = [
   {
     id: 'gauguin',
     category: 'postImpressionism',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 26,
     name: '폴 고갱',
     nameEn: 'Paul Gauguin',
@@ -712,7 +712,7 @@ export const artStyles = [
       masterpieces: ['우리는 어디서 왔는가', '타히티의 여인들', '황색 그리스도'],
       intro: '후기인상주의의 모험가. 문명을 떠나 타히티로 가서 원시적이고 상징적인 작품을 그렸으며, 반 고흐와의 우정으로 유명합니다.'
     },
-    prompt: 'in the style of Paul Gauguin Post-Impressionist, transform this photo preserving the original subject and composition, apply bold flat areas of saturated color, exotic Tahitian tropical paradise scenes, symbolic primitive art influences, strong dark outlines separating color regions, warm rich palette with oranges reds and yellows, mystical spiritual atmosphere, decorative pattern-like compositions, painted in Gauguin synthetist masterpiece quality',
+    prompt: 'Paul Gauguin Post-Impressionist painting style, bold flat areas of saturated color, exotic Tahitian tropical paradise scenes, symbolic primitive art influences, strong dark outlines separating color regions, warm rich palette with oranges reds and yellows, mystical spiritual atmosphere, decorative pattern-like compositions, painted in Gauguin synthetist masterpiece quality',
     color: '#FF6B35',
     icon: '🏝️'
   },
@@ -720,7 +720,7 @@ export const artStyles = [
   {
     id: 'cezanne',
     category: 'postImpressionism',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 27,
     name: '폴 세잔',
     nameEn: 'Paul Cézanne',
@@ -738,7 +738,7 @@ export const artStyles = [
       masterpieces: ['생트빅투아르 산', '카드 놀이하는 사람들', '사과와 오렌지'],
       intro: '현대미술의 아버지. 자연을 원통, 구, 원뿔로 단순화하여 입체주의의 길을 열었으며, 피카소와 마티스에게 영향을 주었습니다.'
     },
-    prompt: 'in the style of Paul Cézanne Post-Impressionist, transform this photo preserving the original subject and composition, apply simplified geometric forms reducing subjects to cylinders spheres and cones, visible constructive brushstrokes building form, multiple viewpoints combined, Mont Sainte-Victoire and still life arrangements, muted earth tones with blues and greens, structured analytical approach, painted in Cézanne revolutionary masterpiece quality',
+    prompt: 'Paul Cézanne Post-Impressionist painting style, simplified geometric forms reducing subjects to cylinders spheres and cones, visible constructive brushstrokes building form, multiple viewpoints combined, Mont Sainte-Victoire and still life arrangements, muted earth tones with blues and greens, structured analytical approach, painted in Cézanne revolutionary masterpiece quality',
     color: '#7B9971',
     icon: '🍎'
   },
@@ -746,7 +746,7 @@ export const artStyles = [
   {
     id: 'seurat',
     category: 'postImpressionism',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 28,
     name: '조르주 쇠라',
     nameEn: 'Georges Seurat',
@@ -764,7 +764,7 @@ export const artStyles = [
       masterpieces: ['그랑드자트 섬의 일요일 오후', '서커스', '아니에르의 수욕'],
       intro: '신인상주의의 창시자. 색채 과학을 연구하여 점묘법을 개발했으며, 31세의 젊은 나이에 디프테리아로 사망했습니다.'
     },
-    prompt: 'in the style of Georges Seurat Post-Impressionist Pointillist, transform this photo preserving the original subject and composition, apply meticulous tiny dots of pure color, scientific color theory application, luminous optical mixing, static harmonious compositions, Sunday afternoon leisure scenes, painted in Seurat Neo-Impressionist masterpiece quality',
+    prompt: 'Georges Seurat Post-Impressionist Pointillist painting style, meticulous tiny dots of pure color, scientific color theory application, luminous optical mixing, static harmonious compositions, Sunday afternoon leisure scenes, painted in Seurat Neo-Impressionist masterpiece quality',
     color: '#9FE2BF',
     icon: '🔵'
   },
@@ -774,7 +774,7 @@ export const artStyles = [
   {
     id: 'matisse',
     category: 'fauvism',
-    model: 'SDXL',
+    model: 'FLUX',
     isMaster: true,
     order: 29,
     name: '앙리 마티스',
@@ -793,7 +793,7 @@ export const artStyles = [
       masterpieces: ['춤', '빨강의 조화', '푸른 누드'],
       intro: '야수파의 리더. 순수한 색채와 단순한 형태로 조화와 기쁨을 표현했으며, 84세까지 장수하며 말년에는 종이 컷아웃 작품을 만들었습니다.'
     },
-    prompt: 'in the style of Henri Matisse Fauvist, transform this photo preserving the original subject and composition, apply bold pure non-naturalistic colors for emotional effect, simplified decorative forms with flowing contours, vibrant reds greens blues and purples in harmonious arrangements, dance and music themes with joyful movement, flat pattern-like surfaces, sensual elegant compositions, painted in Matisse refined Fauvist masterpiece quality',
+    prompt: 'Henri Matisse Fauvist painting style, bold pure non-naturalistic colors for emotional effect, simplified decorative forms with flowing contours, vibrant reds greens blues and purples in harmonious arrangements, dance and music themes with joyful movement, flat pattern-like surfaces, sensual elegant compositions, painted in Matisse refined Fauvist masterpiece quality',
     color: '#FF1744',
     icon: '💃'
   },
@@ -801,7 +801,7 @@ export const artStyles = [
   {
     id: 'derain',
     category: 'fauvism',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 30,
     name: '앙드레 드랭',
     nameEn: 'André Derain',
@@ -819,7 +819,7 @@ export const artStyles = [
       masterpieces: ['런던 브리지', '콜리우르의 배들', '풍경'],
       intro: '야수파의 공동 창립자. 마티스와 함께 야수파 운동을 이끌었으며, 자연의 색을 무시하고 순수한 색채로 감정을 표현했습니다.'
     },
-    prompt: 'in the style of André Derain Fauvist, transform this photo preserving the original subject and composition, apply explosive arbitrary colors unrelated to natural appearance, vivid complementary color contrasts, thick expressive brushstrokes, landscapes and portraits with wild color, brilliant saturated palette, spontaneous energetic paint application, painted in Derain dynamic Fauvist masterpiece quality',
+    prompt: 'André Derain Fauvist painting style, explosive arbitrary colors unrelated to natural appearance, vivid complementary color contrasts, thick expressive brushstrokes, landscapes and portraits with wild color, brilliant saturated palette, spontaneous energetic paint application, painted in Derain dynamic Fauvist masterpiece quality',
     color: '#00BCD4',
     icon: '🦁'
   },
@@ -827,7 +827,7 @@ export const artStyles = [
   {
     id: 'vlaminck',
     category: 'fauvism',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 31,
     name: '모리스 드 블라맹크',
     nameEn: 'Maurice de Vlaminck',
@@ -845,7 +845,7 @@ export const artStyles = [
       masterpieces: ['샤투의 센 강', '붉은 나무들', '폭풍우 치는 풍경'],
       intro: '야수파 중 가장 격정적. 튜브에서 직접 짜낸 순수한 색으로 본능적으로 그렸으며, "나는 반 고흐보다 더 사랑한다"고 말했습니다.'
     },
-    prompt: 'in the style of Maurice de Vlaminck Fauvist, transform this photo preserving the original subject and composition, apply violent intense colors applied with raw energy, thick impasto paint squeezed directly from tube, turbulent dynamic brushwork, dramatic stormy skies and windswept landscapes, emotional power over composition, instinctive spontaneous painting, painted in Vlaminck passionate Fauvist masterpiece quality',
+    prompt: 'Maurice de Vlaminck Fauvist painting style, violent intense colors applied with raw energy, thick impasto paint squeezed directly from tube, turbulent dynamic brushwork, dramatic stormy skies and windswept landscapes, emotional power over composition, instinctive spontaneous painting, painted in Vlaminck passionate Fauvist masterpiece quality',
     color: '#FF5722',
     icon: '⚡'
   },
@@ -855,7 +855,7 @@ export const artStyles = [
   {
     id: 'munch',
     category: 'expressionism',
-    model: 'SDXL',
+    model: 'FLUX',
     isMaster: true,
     order: 32,
     name: '에드바르 뭉크',
@@ -874,7 +874,7 @@ export const artStyles = [
       masterpieces: ['절규', '마돈나', '병실에서의 죽음'],
       intro: '표현주의의 선구자. 실존적 불안과 고독을 표현했으며, "절규"는 현대인의 불안을 상징하는 아이콘이 되었습니다.'
     },
-    prompt: 'in the style of Edvard Munch Expressionist, transform this photo preserving the original subject and composition, apply intense psychological anxiety and existential emotion, distorted swirling forms conveying inner turmoil, sinuous flowing lines creating movement, dramatic color contrasts with reds oranges and blues, isolated alienated figures, screaming faces and expressions of anguish, haunting atmospheric quality, painted in Munch emotionally powerful masterpiece quality',
+    prompt: 'Edvard Munch Expressionist painting style, intense psychological anxiety and existential emotion, distorted swirling forms conveying inner turmoil, sinuous flowing lines creating movement, dramatic color contrasts with reds oranges and blues, isolated alienated figures, screaming faces and expressions of anguish, haunting atmospheric quality, painted in Munch emotionally powerful masterpiece quality',
     color: '#E74C3C',
     icon: '😱'
   },
@@ -882,7 +882,7 @@ export const artStyles = [
   {
     id: 'kirchner',
     category: 'expressionism',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 33,
     name: '에른스트 루트비히 키르히너',
     nameEn: 'Ernst Ludwig Kirchner',
@@ -900,7 +900,7 @@ export const artStyles = [
       masterpieces: ['베를린 거리', '자화상', '다섯 명의 여인'],
       intro: '독일 표현주의 그룹 브뤼케의 리더. 현대 도시의 긴장과 소외를 표현했으며, 나치에 의해 퇴폐 예술가로 낙인찍혀 자살했습니다.'
     },
-    prompt: 'in the style of Ernst Ludwig Kirchner Expressionist, transform this photo preserving the original subject and composition, apply angular jagged brushstrokes creating tension, elongated distorted figures with mask-like faces, vibrant clashing colors with acidic greens and harsh pinks, urban Berlin street scenes with psychological edge, woodcut-like bold black outlines, sense of alienation and anxiety in modern city, painted in Kirchner intense German Expressionist masterpiece quality',
+    prompt: 'Ernst Ludwig Kirchner Expressionist painting style, angular jagged brushstrokes creating tension, elongated distorted figures with mask-like faces, vibrant clashing colors with acidic greens and harsh pinks, urban Berlin street scenes with psychological edge, woodcut-like bold black outlines, sense of alienation and anxiety in modern city, painted in Kirchner intense German Expressionist masterpiece quality',
     color: '#27AE60',
     icon: '🏙️'
   },
@@ -908,7 +908,7 @@ export const artStyles = [
   {
     id: 'nolde',
     category: 'expressionism',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 34,
     name: '에밀 놀데',
     nameEn: 'Emil Nolde',
@@ -926,7 +926,7 @@ export const artStyles = [
       masterpieces: ['최후의 만찬', '춤추는 사람들', '가면들'],
       intro: '독일 표현주의의 색채 거장. 극도로 채도 높은 색으로 종교적 격정을 표현했으며, 나치 시대에 그림 금지를 당했지만 비밀리에 1000점 이상 그렸습니다.'
     },
-    prompt: 'in the style of Emil Nolde Expressionist, transform this photo preserving the original subject and composition, apply violent explosive colors with maximum saturation, loose gestural brushwork conveying raw emotion, watercolor-like bleeding and mixing of pigments, religious and mystical subjects with primitive intensity, glowing luminous color contrasts, spontaneous uninhibited application of paint, passionate spiritual energy, painted in Nolde powerful Expressionist masterpiece quality',
+    prompt: 'Emil Nolde Expressionist painting style, violent explosive colors with maximum saturation, loose gestural brushwork conveying raw emotion, watercolor-like bleeding and mixing of pigments, religious and mystical subjects with primitive intensity, glowing luminous color contrasts, spontaneous uninhibited application of paint, passionate spiritual energy, painted in Nolde powerful Expressionist masterpiece quality',
     color: '#8E44AD',
     icon: '💥'
   },
@@ -934,7 +934,7 @@ export const artStyles = [
   {
     id: 'schiele',
     category: 'expressionism',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 35,
     name: '에곤 실레',
     nameEn: 'Egon Schiele',
@@ -952,7 +952,7 @@ export const artStyles = [
       masterpieces: ['포옹', '자화상', '죽음과 소녀'],
       intro: '오스트리아 표현주의의 천재. 에로틱하고 뒤틀린 신체로 내면의 불안을 표현했으며, 클림트의 제자였습니다. 28세에 스페인 독감으로 사망했습니다.'
     },
-    prompt: 'in the style of Egon Schiele Expressionist, transform this photo preserving the original subject and composition, apply contorted angular body poses expressing psychological intensity, thin nervous contour lines with sharp edges, raw sexual and emotional honesty, emaciated distorted figures, muted earth tones with occasional bright accents, sense of vulnerability and isolation, provocative uncomfortable compositions, painted in Schiele confrontational Austrian Expressionist masterpiece quality',
+    prompt: 'Egon Schiele Expressionist painting style, contorted angular body poses expressing psychological intensity, thin nervous contour lines with sharp edges, raw sexual and emotional honesty, emaciated distorted figures, muted earth tones with occasional bright accents, sense of vulnerability and isolation, provocative uncomfortable compositions, painted in Schiele confrontational Austrian Expressionist masterpiece quality',
     color: '#D35400',
     icon: '🎨'
   },
@@ -962,7 +962,7 @@ export const artStyles = [
   {
     id: 'vangogh-master',
     category: 'masters',
-    model: 'SDXL',
+    model: 'FLUX',
     isMaster: true,
     order: 36,
     name: '빈센트 반 고흐',
@@ -981,7 +981,7 @@ export const artStyles = [
       masterpieces: ['별이 빛나는 밤', '해바라기', '까마귀가 나는 밀밭'],
       intro: '비극적 삶과 불멸의 예술. 10년간 그린 900점의 작품으로 표현주의와 20세기 미술 전체에 혁명을 일으킨 천재입니다.'
     },
-    prompt: 'in the style of Vincent van Gogh Post-Impressionist, transform this photo preserving the original subject and composition, apply bold expressive swirling brushstrokes full of emotion, vibrant intense colors with yellows blues and oranges, thick impasto paint application creating texture, turbulent energetic movement, starry nights and sunflower fields, cypress trees, painted in van Gogh passionate masterpiece quality',
+    prompt: 'Vincent van Gogh Post-Impressionist painting style, bold expressive swirling brushstrokes full of emotion, vibrant intense colors with yellows blues and oranges, thick impasto paint application creating texture, turbulent energetic movement, starry nights and sunflower fields, cypress trees, painted in van Gogh passionate masterpiece quality',
     color: '#F4C430',
     icon: '🌟'
   },
@@ -989,7 +989,7 @@ export const artStyles = [
   {
     id: 'klimt',
     category: 'masters',
-    model: 'SDXL',
+    model: 'FLUX',
     isMaster: true,
     order: 37,
     name: '구스타프 클림트',
@@ -1008,7 +1008,7 @@ export const artStyles = [
       masterpieces: ['키스', '아델레 블로흐바우어의 초상', '다나에'],
       intro: '세기말 비엔나의 황제. 빈 분리파를 이끌며 전통과 결별했고, 황금빛 장식으로 현대 그래픽 디자인의 토대를 세웠습니다.'
     },
-    prompt: 'in the style of Gustav Klimt Art Nouveau, transform this photo preserving the original subject and composition, apply luxurious gold leaf and metallic patterns, intricate decorative ornamental designs with spirals and geometric shapes, sensual elongated figures embraced in golden embrace, mosaic-like surfaces with Byzantine influence, rich jewel-tone colors, symbolic mystical imagery, flat ornamental space, painted in Klimt opulent Viennese Art Nouveau masterpiece quality',
+    prompt: 'Gustav Klimt Art Nouveau style, luxurious gold leaf and metallic patterns, intricate decorative ornamental designs with spirals and geometric shapes, sensual elongated figures embraced in golden embrace, mosaic-like surfaces with Byzantine influence, rich jewel-tone colors, symbolic mystical imagery, flat ornamental space, painted in Klimt opulent Viennese Art Nouveau masterpiece quality',
     color: '#FFD700',
     icon: '✨'
   },
@@ -1016,7 +1016,7 @@ export const artStyles = [
   {
     id: 'munch-master',
     category: 'masters',
-    model: 'SDXL',
+    model: 'FLUX',
     isMaster: true,
     order: 38,
     name: '에드바르 뭉크',
@@ -1035,7 +1035,7 @@ export const artStyles = [
       masterpieces: ['절규', '생명의 춤', '별이 빛나는 밤'],
       intro: '현대인의 불안을 그린 선지자. "절규"는 20세기 가장 영향력 있는 이미지가 되었으며, 80년 생애 동안 실존적 고통을 예술로 승화시켰습니다.'
     },
-    prompt: 'in the style of Edvard Munch Expressionist, transform this photo preserving the original subject and composition, apply intense psychological anxiety and existential emotion, distorted swirling forms conveying inner turmoil, sinuous flowing lines creating movement, dramatic color contrasts with reds oranges and blues, isolated alienated figures, screaming faces and expressions of anguish, haunting atmospheric quality, painted in Munch emotionally powerful masterpiece quality',
+    prompt: 'Edvard Munch Expressionist painting style, intense psychological anxiety and existential emotion, distorted swirling forms conveying inner turmoil, sinuous flowing lines creating movement, dramatic color contrasts with reds oranges and blues, isolated alienated figures, screaming faces and expressions of anguish, haunting atmospheric quality, painted in Munch emotionally powerful masterpiece quality',
     color: '#E74C3C',
     icon: '😱'
   },
@@ -1043,7 +1043,7 @@ export const artStyles = [
   {
     id: 'matisse-master',
     category: 'masters',
-    model: 'SDXL',
+    model: 'FLUX',
     isMaster: true,
     order: 39,
     name: '앙리 마티스',
@@ -1062,7 +1062,7 @@ export const artStyles = [
       masterpieces: ['춤', '음악', '재즈 (컷아웃)'],
       intro: '20세기 색채혁명의 거장. 피카소와 쌍벽을 이루며 현대미술을 이끌었고, 84세까지 끊임없이 혁신하며 "가위로 그림을 그렸습니다".'
     },
-    prompt: 'in the style of Henri Matisse Fauvist, transform this photo preserving the original subject and composition, apply bold pure non-naturalistic colors for emotional effect, simplified decorative forms with flowing contours, vibrant reds greens blues and purples in harmonious arrangements, dance and music themes with joyful movement, flat pattern-like surfaces, sensual elegant compositions, painted in Matisse refined Fauvist masterpiece quality',
+    prompt: 'Henri Matisse Fauvist painting style, bold pure non-naturalistic colors for emotional effect, simplified decorative forms with flowing contours, vibrant reds greens blues and purples in harmonious arrangements, dance and music themes with joyful movement, flat pattern-like surfaces, sensual elegant compositions, painted in Matisse refined Fauvist masterpiece quality',
     color: '#FF1744',
     icon: '💃'
   },
@@ -1070,7 +1070,7 @@ export const artStyles = [
   {
     id: 'picasso',
     category: 'masters',
-    model: 'SDXL',
+    model: 'FLUX',
     isMaster: true,
     order: 40,
     name: '파블로 피카소',
@@ -1089,7 +1089,7 @@ export const artStyles = [
       masterpieces: ['아비뇽의 처녀들', '게르니카', '꿈'],
       intro: '20세기 미술의 절대 군주. 입체주의로 500년 원근법을 파괴했고, 91년 생애 동안 5만점을 창조하며 미술사 자체를 재정의했습니다.'
     },
-    prompt: 'in the style of Pablo Picasso Cubist, transform this photo preserving the original subject and composition, apply fragmented geometric forms showing multiple viewpoints simultaneously, angular faceted planes intersecting, analytical deconstruction of subjects, overlapping transparent surfaces, revolutionary approach to perspective and space, painted in Picasso groundbreaking Cubist masterpiece quality',
+    prompt: 'Pablo Picasso Cubist painting style, fragmented geometric forms showing multiple viewpoints simultaneously, angular faceted planes intersecting, analytical deconstruction of subjects, overlapping transparent surfaces, revolutionary approach to perspective and space, painted in Picasso groundbreaking Cubist masterpiece quality',
     color: '#795548',
     icon: '🎭'
   },
@@ -1097,7 +1097,7 @@ export const artStyles = [
   {
     id: 'dali',
     category: 'masters',
-    model: 'SDXL',
+    model: 'FLUX',
     isMaster: true,
     order: 41,
     name: '살바도르 달리',
@@ -1116,7 +1116,7 @@ export const artStyles = [
       masterpieces: ['기억의 지속', '아토믹 레다', '십자가의 성 요한'],
       intro: '광기와 천재의 경계. 프로이트의 무의식을 완벽한 기교로 구현했고, 예술가를 브랜드화한 최초의 현대 아티스트입니다.'
     },
-    prompt: 'in the style of Salvador Dalí Surrealist, transform this photo preserving the original subject and composition, apply hyper-realistic precise details in impossible dreamlike scenes, melting distorted objects defying physics and logic, vast empty desert landscapes with dramatic perspective, symbolic metaphorical imagery from subconscious mind, smooth glossy surfaces with meticulous rendering, mysterious golden light creating long shadows, painted in Dalí iconic Surrealist masterpiece quality',
+    prompt: 'Salvador Dalí Surrealist painting style, hyper-realistic precise details in impossible dreamlike scenes, melting distorted objects defying physics and logic, vast empty desert landscapes with dramatic perspective, symbolic metaphorical imagery from subconscious mind, smooth glossy surfaces with meticulous rendering, mysterious golden light creating long shadows, painted in Dalí iconic Surrealist masterpiece quality',
     color: '#F39C12',
     icon: '🎨'
   },
@@ -1126,7 +1126,7 @@ export const artStyles = [
   {
     id: 'korean-minhwa',
     category: 'oriental',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 39,
     name: '한국 민화',
     nameEn: 'Korean Minhwa',
@@ -1144,7 +1144,7 @@ export const artStyles = [
       masterpieces: ['호작도', '화조도', '책거리'],
       intro: '조선시대 서민들의 그림. 밝은 원색과 해학적 표현으로 민간 신앙과 염원을 담았으며, 소박하지만 생명력 넘치는 한국 미의 정수입니다.'
     },
-    prompt: 'in the style of Korean Minhwa folk, transform this photo preserving the original subject and composition, apply naive charming simplicity with playful expressions, bold vibrant primary colors (red, blue, yellow) in traditional obangsaek, decorative flattened perspective, cheerful folk art aesthetic, tigers and magpies, peony flowers and auspicious symbols, painted on Korean hanji paper, painted in Joseon dynasty folk art masterpiece quality',
+    prompt: 'Korean Minhwa folk painting style, naive charming simplicity with playful expressions, bold vibrant primary colors (red, blue, yellow) in traditional obangsaek, decorative flattened perspective, cheerful folk art aesthetic, tigers and magpies, peony flowers and auspicious symbols, painted on Korean hanji paper, painted in Joseon dynasty folk art masterpiece quality',
     color: '#FF6B6B',
     icon: '🐯'
   },
@@ -1152,7 +1152,7 @@ export const artStyles = [
   {
     id: 'chinese-ink',
     category: 'oriental',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 40,
     name: '중국 수묵화',
     nameEn: 'Chinese Ink Painting',
@@ -1170,7 +1170,7 @@ export const artStyles = [
       masterpieces: ['제백석의 새우', '팔대산인의 물고기', '정섭의 대나무'],
       intro: '중국 문인화의 정수. 먹 하나로 농담을 표현하며, 비어있는 여백을 통해 무한을 담아냅니다. 정신의 표현을 최고로 여깁니다.'
     },
-    prompt: 'in the style of Chinese ink wash (shuimohua), transform this photo preserving the original subject and composition, apply monochrome black ink gradations from dark to light, expressive calligraphic brushstrokes, shrimp bamboo plum blossoms, minimalist elegant simplicity, white negative space (liubai), literati scholar painting tradition, spontaneous gestural marks, painted in Chinese xieyi masterpiece quality',
+    prompt: 'Chinese ink wash painting style (shuimohua), monochrome black ink gradations from dark to light, expressive calligraphic brushstrokes, shrimp bamboo plum blossoms, minimalist elegant simplicity, white negative space (liubai), literati scholar painting tradition, spontaneous gestural marks, painted in Chinese xieyi masterpiece quality',
     color: '#2C3E50',
     icon: '🖌️'
   },
@@ -1178,7 +1178,7 @@ export const artStyles = [
   {
     id: 'japanese-ukiyoe',
     category: 'oriental',
-    model: 'SDXL',
+    model: 'FLUX',
     order: 41,
     name: '일본 우키요에',
     nameEn: 'Japanese Ukiyo-e',
@@ -1196,7 +1196,7 @@ export const artStyles = [
       masterpieces: ['호쿠사이의 파도', '히로시게의 비', '우타마로의 미인도'],
       intro: '에도시대 서민 문화의 꽃. 목판화 기법으로 대담한 구도와 선명한 색채를 보여주며, 인상파 화가들에게 큰 영향을 주었습니다.'
     },
-    prompt: 'in the style of Japanese Ukiyo-e woodblock print, transform this photo preserving the original subject and composition, apply bold graphic composition with dramatic angles, vibrant flat colors with Prussian blue accents, strong black outlines defining shapes, stylized decorative patterns, The Great Wave artistic influence, intricate linear details, painted in Edo period ukiyo-e masterpiece quality',
+    prompt: 'Japanese Ukiyo-e woodblock print style, bold graphic composition with dramatic cropping, vibrant flat colors with Prussian blue, The Great Wave and Mount Fuji motifs, beautiful geisha and landscapes, strong black outlines, stylized clouds and water, intricate kimono patterns, painted in Edo period ukiyo-e masterpiece quality',
     color: '#4169E1',
     icon: '🗻'
   }

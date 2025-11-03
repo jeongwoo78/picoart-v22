@@ -1,7 +1,7 @@
 {
-  "name": "picoart-v12",
+  "name": "picoart-v22",
   "private": true,
-  "version": "12.0.0",
+  "version": "22.4.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,8 +10,7 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-compare-image": "^3.4.0"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
