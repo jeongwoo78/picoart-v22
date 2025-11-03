@@ -16,12 +16,9 @@ export default async function handler(req, res) {
   try {
     const { image, prompt } = req.body;
 
-    // API Key 체크
     if (!process.env.REPLICATE_API_KEY) {
-      console.error('REPLICATE_API_KEY not found');
       return res.status(500).json({ 
-        error: 'API key not configured',
-        details: 'Please set REPLICATE_API_KEY in Vercel environment variables'
+        error: 'API key not configured'
       });
     }
 
@@ -29,18 +26,9 @@ export default async function handler(req, res) {
       return res.status(400).json({ error: 'Missing image or prompt' });
     }
 
-    // Base64 검증
-    if (!image.startsWith('data:image/')) {
-      return res.status(400).json({ error: 'Invalid image format' });
-    }
+    console.log('Starting SD 2.1 img2img prediction...');
 
-    console.log('Starting SDXL prediction...', {
-      promptLength: prompt.length,
-      imageSize: image.length,
-      apiKeyPresent: !!process.env.REPLICATE_API_KEY
-    });
-
-    // lucataco의 SDXL img2img 모델 사용 (검증됨)
+    // stability-ai/stable-diffusion-img2img (검증됨)
     const response = await fetch('https://api.replicate.com/v1/predictions', {
       method: 'POST',
       headers: {
@@ -49,42 +37,32 @@ export default async function handler(req, res) {
         'Prefer': 'wait'
       },
       body: JSON.stringify({
-        version: "afb00c975d2c3ac545839b0b540be9b7dd445a8e0ba60e0e6d6e40d0a8c5c7a2",
+        version: "db21e45d3f7023abc2a46ee38a23973f6dce16bb082a930b0c49861f96d1e5bf",
         input: {
           image: image,
           prompt: prompt,
-          strength: 0.4,
           num_inference_steps: 30,
-          guidance_scale: 7.5
+          guidance_scale: 7.5,
+          strength: 0.5,
+          scheduler: "DPMSolverMultistep"
         }
       })
     });
 
     if (!response.ok) {
       const errorText = await response.text();
-      console.error('Replicate API error:', {
-        status: response.status,
-        statusText: response.statusText,
-        error: errorText
-      });
-      
+      console.error('Replicate API error:', response.status, errorText);
       return res.status(response.status).json({ 
-        error: `Replicate API error: ${response.status}`,
-        details: errorText,
-        hint: response.status === 401 ? 'Check API key' : 
-              response.status === 402 ? 'Insufficient credits' : 
-              'Check Replicate API status'
+        error: `API error: ${response.status}`,
+        details: errorText
       });
     }
 
     const data = await response.json();
-    console.log('SDXL prediction created:', data.id);
+    console.log('Prediction created:', data.id);
     res.status(200).json(data);
   } catch (error) {
-    console.error('SDXL API Error:', error);
-    res.status(500).json({ 
-      error: error.message,
-      stack: process.env.NODE_ENV === 'development' ? error.stack : undefined
-    });
+    console.error('Error:', error);
+    res.status(500).json({ error: error.message });
   }
 }
