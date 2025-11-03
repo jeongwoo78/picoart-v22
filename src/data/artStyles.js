@@ -85,7 +85,7 @@ export const artStyles = [
   {
     id: 'davinci',
     category: 'renaissance',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 3,
     name: '레오나르도 다 빈치',
     nameEn: 'Leonardo da Vinci',
@@ -111,7 +111,7 @@ export const artStyles = [
   {
     id: 'michelangelo',
     category: 'renaissance',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 4,
     name: '미켈란젤로',
     nameEn: 'Michelangelo',
@@ -137,7 +137,7 @@ export const artStyles = [
   {
     id: 'raphael',
     category: 'renaissance',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 5,
     name: '라파엘로',
     nameEn: 'Raphael',
@@ -163,7 +163,7 @@ export const artStyles = [
   {
     id: 'botticelli',
     category: 'renaissance',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 6,
     name: '산드로 보티첼리',
     nameEn: 'Sandro Botticelli',
@@ -189,7 +189,7 @@ export const artStyles = [
   {
     id: 'titian',
     category: 'renaissance',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 7,
     name: '티치아노',
     nameEn: 'Titian',
@@ -217,7 +217,7 @@ export const artStyles = [
   {
     id: 'caravaggio',
     category: 'baroque',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 8,
     name: '카라바조',
     nameEn: 'Caravaggio',
@@ -243,7 +243,7 @@ export const artStyles = [
   {
     id: 'rembrandt',
     category: 'baroque',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 9,
     name: '렘브란트',
     nameEn: 'Rembrandt',
@@ -269,7 +269,7 @@ export const artStyles = [
   {
     id: 'rubens',
     category: 'baroque',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 10,
     name: '페테르 파울 루벤스',
     nameEn: 'Peter Paul Rubens',
@@ -295,7 +295,7 @@ export const artStyles = [
   {
     id: 'vermeer',
     category: 'baroque',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 11,
     name: '요하네스 베르메르',
     nameEn: 'Johannes Vermeer',
@@ -321,7 +321,7 @@ export const artStyles = [
   {
     id: 'velazquez',
     category: 'baroque',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 12,
     name: '디에고 벨라스케스',
     nameEn: 'Diego Velázquez',
@@ -349,7 +349,7 @@ export const artStyles = [
   {
     id: 'boucher',
     category: 'rococo',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 13,
     name: '프랑수아 부셰',
     nameEn: 'François Boucher',
@@ -375,7 +375,7 @@ export const artStyles = [
   {
     id: 'fragonard',
     category: 'rococo',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 14,
     name: '장 오노레 프라고나르',
     nameEn: 'Jean-Honoré Fragonard',
@@ -401,7 +401,7 @@ export const artStyles = [
   {
     id: 'chardin',
     category: 'rococo',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 15,
     name: '장 바티스트 시메옹 샤르댕',
     nameEn: 'Jean-Baptiste-Siméon Chardin',
@@ -429,7 +429,7 @@ export const artStyles = [
   {
     id: 'delacroix',
     category: 'romanticism',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 16,
     name: '외젠 들라크루아',
     nameEn: 'Eugène Delacroix',
@@ -455,7 +455,7 @@ export const artStyles = [
   {
     id: 'friedrich',
     category: 'romanticism',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 17,
     name: '카스파 다비드 프리드리히',
     nameEn: 'Caspar David Friedrich',
@@ -481,7 +481,7 @@ export const artStyles = [
   {
     id: 'turner',
     category: 'romanticism',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 18,
     name: '조지프 말로드 윌리엄 터너',
     nameEn: 'J.M.W. Turner',
@@ -507,7 +507,7 @@ export const artStyles = [
   {
     id: 'gericault',
     category: 'romanticism',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 19,
     name: '테오도르 제리코',
     nameEn: 'Théodore Géricault',
@@ -535,7 +535,7 @@ export const artStyles = [
   {
     id: 'monet',
     category: 'impressionism',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 20,
     name: '클로드 모네',
     nameEn: 'Claude Monet',
@@ -561,7 +561,7 @@ export const artStyles = [
   {
     id: 'renoir',
     category: 'impressionism',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 21,
     name: '피에르 오귀스트 르누아르',
     nameEn: 'Pierre-Auguste Renoir',
@@ -587,7 +587,7 @@ export const artStyles = [
   {
     id: 'manet',
     category: 'impressionism',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 22,
     name: '에두아르 마네',
     nameEn: 'Édouard Manet',
@@ -613,7 +613,7 @@ export const artStyles = [
   {
     id: 'degas',
     category: 'impressionism',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 23,
     name: '에드가 드가',
     nameEn: 'Edgar Degas',
@@ -639,7 +639,7 @@ export const artStyles = [
   {
     id: 'pissarro',
     category: 'impressionism',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 24,
     name: '카미유 피사로',
     nameEn: 'Camille Pissarro',
@@ -667,7 +667,7 @@ export const artStyles = [
   {
     id: 'vangogh',
     category: 'postImpressionism',
-    model: 'FLUX',
+    model: 'SDXL',
     isMaster: true,
     order: 25,
     name: '빈센트 반 고흐',
@@ -694,7 +694,7 @@ export const artStyles = [
   {
     id: 'gauguin',
     category: 'postImpressionism',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 26,
     name: '폴 고갱',
     nameEn: 'Paul Gauguin',
@@ -720,7 +720,7 @@ export const artStyles = [
   {
     id: 'cezanne',
     category: 'postImpressionism',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 27,
     name: '폴 세잔',
     nameEn: 'Paul Cézanne',
@@ -746,7 +746,7 @@ export const artStyles = [
   {
     id: 'seurat',
     category: 'postImpressionism',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 28,
     name: '조르주 쇠라',
     nameEn: 'Georges Seurat',
@@ -774,7 +774,7 @@ export const artStyles = [
   {
     id: 'matisse',
     category: 'fauvism',
-    model: 'FLUX',
+    model: 'SDXL',
     isMaster: true,
     order: 29,
     name: '앙리 마티스',
@@ -801,7 +801,7 @@ export const artStyles = [
   {
     id: 'derain',
     category: 'fauvism',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 30,
     name: '앙드레 드랭',
     nameEn: 'André Derain',
@@ -827,7 +827,7 @@ export const artStyles = [
   {
     id: 'vlaminck',
     category: 'fauvism',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 31,
     name: '모리스 드 블라맹크',
     nameEn: 'Maurice de Vlaminck',
@@ -855,7 +855,7 @@ export const artStyles = [
   {
     id: 'munch',
     category: 'expressionism',
-    model: 'FLUX',
+    model: 'SDXL',
     isMaster: true,
     order: 32,
     name: '에드바르 뭉크',
@@ -882,7 +882,7 @@ export const artStyles = [
   {
     id: 'kirchner',
     category: 'expressionism',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 33,
     name: '에른스트 루트비히 키르히너',
     nameEn: 'Ernst Ludwig Kirchner',
@@ -908,7 +908,7 @@ export const artStyles = [
   {
     id: 'nolde',
     category: 'expressionism',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 34,
     name: '에밀 놀데',
     nameEn: 'Emil Nolde',
@@ -934,7 +934,7 @@ export const artStyles = [
   {
     id: 'schiele',
     category: 'expressionism',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 35,
     name: '에곤 실레',
     nameEn: 'Egon Schiele',
@@ -962,7 +962,7 @@ export const artStyles = [
   {
     id: 'vangogh-master',
     category: 'masters',
-    model: 'FLUX',
+    model: 'SDXL',
     isMaster: true,
     order: 36,
     name: '빈센트 반 고흐',
@@ -989,7 +989,7 @@ export const artStyles = [
   {
     id: 'klimt',
     category: 'masters',
-    model: 'FLUX',
+    model: 'SDXL',
     isMaster: true,
     order: 37,
     name: '구스타프 클림트',
@@ -1016,7 +1016,7 @@ export const artStyles = [
   {
     id: 'munch-master',
     category: 'masters',
-    model: 'FLUX',
+    model: 'SDXL',
     isMaster: true,
     order: 38,
     name: '에드바르 뭉크',
@@ -1043,7 +1043,7 @@ export const artStyles = [
   {
     id: 'matisse-master',
     category: 'masters',
-    model: 'FLUX',
+    model: 'SDXL',
     isMaster: true,
     order: 39,
     name: '앙리 마티스',
@@ -1070,7 +1070,7 @@ export const artStyles = [
   {
     id: 'picasso',
     category: 'masters',
-    model: 'FLUX',
+    model: 'SDXL',
     isMaster: true,
     order: 40,
     name: '파블로 피카소',
@@ -1097,7 +1097,7 @@ export const artStyles = [
   {
     id: 'dali',
     category: 'masters',
-    model: 'FLUX',
+    model: 'SDXL',
     isMaster: true,
     order: 41,
     name: '살바도르 달리',
@@ -1126,7 +1126,7 @@ export const artStyles = [
   {
     id: 'korean-minhwa',
     category: 'oriental',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 39,
     name: '한국 민화',
     nameEn: 'Korean Minhwa',
@@ -1152,7 +1152,7 @@ export const artStyles = [
   {
     id: 'chinese-ink',
     category: 'oriental',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 40,
     name: '중국 수묵화',
     nameEn: 'Chinese Ink Painting',
@@ -1178,7 +1178,7 @@ export const artStyles = [
   {
     id: 'japanese-ukiyoe',
     category: 'oriental',
-    model: 'FLUX',
+    model: 'SDXL',
     order: 41,
     name: '일본 우키요에',
     nameEn: 'Japanese Ukiyo-e',
