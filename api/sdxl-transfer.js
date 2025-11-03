@@ -51,7 +51,7 @@ export default async function handler(req, res) {
         input: {
           image: image,
           prompt: prompt,
-          strength: 0.8,
+          strength: 0.45,          // 0.8 → 0.45 (원본 더 유지)
           num_inference_steps: 30,
           guidance_scale: 7.5,
           output_format: "jpg",
